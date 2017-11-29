@@ -147,6 +147,7 @@ var purchases = [{
 // First, group the purchases by company without underscore
 // then do it again using _.groupBy()
 
+let grouper = _.groupBy( purchases, 'company' )
 
-
+console.log(grouper);
 
